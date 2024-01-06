@@ -1,0 +1,23 @@
+{
+  "name": "flutter_location_tracking",
+  "version": "1.0.0",
+  "description": "Location tracking system using Flutter and Node.js with Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "location tracking",
+    "node.js",
+    "socket.io"
+  ],
+  "author": "Radhi MIGHRI",
+  "license": "Accelerant",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
